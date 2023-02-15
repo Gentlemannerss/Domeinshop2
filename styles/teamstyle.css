@@ -1,0 +1,17 @@
+.navigationbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.login {
+    justify-content: right;
+}
+
+.textStartingProgrammer {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
