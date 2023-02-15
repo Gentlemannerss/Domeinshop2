@@ -3,6 +3,9 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+.main-header > h1 {
+    font-size: 80px;
+}
 
 .login {
     justify-content: right;
@@ -14,4 +17,13 @@
 
 footer a {
     color: white;
+}
+
+ul > li {
+    text-align: center;
+}
+
+ul a:hover {
+    color: #1C2B32;
+    text-decoration: none;
 }
