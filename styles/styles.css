@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 8vw;
     font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ h2 {
 /*///////////// 3.1 Header /////////////*/
 main {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 header {
@@ -73,7 +73,7 @@ header {
     background-position: center;
     text-align: center;
     background-size: cover;
-    height: 500px;
+    max-height: 500px;
 }
 
 .main-header {
@@ -113,6 +113,10 @@ header {
     color: white;
     padding: 8px; /*dit was eerst 10px, maar blijft niet gelijk*/
     font-family: 'Poppins', sans-serif;
+}
+
+.beschikbaar:active {
+    background-color: #899CA0;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
@@ -216,6 +220,7 @@ blockquote {
     color: white;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    border: none;
 }
 .neemContactOp:active {
     background-color: #899CA0;
@@ -244,6 +249,7 @@ details p {
 }
 
 details[open] {
+    background-color: blue;
 }
 
 /*///////////// 3.5 Footer /////////////*/
