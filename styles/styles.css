@@ -73,7 +73,7 @@ header {
     background-position: center;
     text-align: center;
     background-size: cover;
-    max-height: 500px;
+    min-height: 500px;
 }
 
 .main-header {
@@ -249,7 +249,6 @@ details p {
 }
 
 details[open] {
-    background-color: blue;
 }
 
 /*///////////// 3.5 Footer /////////////*/
